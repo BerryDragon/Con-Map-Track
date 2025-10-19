@@ -79,3 +79,14 @@ As a user, I want to see updated convention info each year.
 Acceptance Criteria: Convention data can be updated through the JSON file, new conventions show up after the data refreshes, and past events get archived or marked as inactive.
 
 
+TREND NOTES
+
+In the past, software projects followed the Waterfall methodology, where all the planning happened upfront and developers built everything in a strict sequence. The problem with that approach was it didn't handle changes well. If something didn't work or requirements shifted halfway through, you were basically stuck redoing large portions of the project.
+
+Now a days, Agile methods like Scrum are standard. Teams work in short sprints, get working features done early, and adjust based on feedback from users or anyone. For this project, I'm using an Agile approach with two three-week sprints. That way, if something like integrating a mapping API doesn't go as planned in Sprint 1, I can pivot in Sprint 2 instead of being locked into a bad design which would basically mean failure.
+
+A big current trend is using APIs instead of manually entering or hardcoding data. For the Convention Map Tracker, I'll pull in real-time data for things like gas prices, flight estimates, and hotel availability. This keeps the information accurate and updated without constantly having to do manual updates. Another current practice I'm following is a mobile design. Since most people would check convention locations and costs on their phones while traveling, I'm designing the layout with smaller screens in mind first, then scaling up to desktop. I am sure there is some easy software or specific code that would fix this issue easily.
+
+I do not like AI, but from what I can see and what I have been implementing since it is forced upon even in our IDEs now a days, trends include AI-assisted development tools like GitHub Copilot and automated frameworks that catch bugs before code even gets pushed. While I won't have time to implement full CI/CD in this 8-week project, I'm setting up my GitHub workflow with proper branching and pull requests to prepare for those kinds of practices in future work.
+
+By combining Agile principles, API integration, mobile designs, and proper leader shipping, this project does a good job on how it feel to show real development teams operate today and sets me up to adopt emerging tools as they become more accessible.
