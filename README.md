@@ -28,3 +28,54 @@ Week 1: Planning, research, and writing the project charter.
 
 Week 8: Final testing, bug fixes, and submission.
 
+Personal Backlog - User Stories
+
+ID: CMT-1
+As a user, I want to search for conventions by name so I can find events easily.
+Acceptance Criteria: Search returns results within 1 second, partial matches work (like typing "Comic" shows "Comic Con"), and it shows "No results" if nothing matches.
+
+ID: CMT-2
+As a user, I want to see convention locations on a map so I know where they're held.
+Acceptance Criteria: Map marker appears at the right spot, map centers on the convention when selected, and hovering over the marker shows the convention name.
+
+ID: CMT-3
+As a user, I want to know how far conventions are from my location.
+Acceptance Criteria: Distance is shown in miles, calculation is accurate within about 5 miles, and it updates if I change my location.
+
+ID: CMT-4
+As a user, I want to see gas cost estimates for driving to conventions.
+Acceptance Criteria: Cost is calculated using distance and average fuel prices, assumes a typical car gets 25-30 MPG, and shows the total in dollars. (Possibly have to put in some type of calculation to ask the user how many MPG their car gets in the city and on the highway)
+
+ID: CMT-5
+As a user, I want to compare flight and driving costs.
+Acceptance Criteria: Shows estimated roundtrip flight price, compares it to driving cost, and labels which option is cheaper.
+
+ID: CMT-6
+As a user, I want to see nearby hotels so I can plan where to stay.
+Acceptance Criteria: Displays 3-5 hotels near the convention, shows hotel names and nightly rates, and lists how far each one is from the venue.
+
+ID: CMT-7
+As a user, I want to see how many people attended last year.
+Acceptance Criteria: Previous year's attendance number is visible for each convention, shows "N/A" if the data isn't available, and the number is clearly labeled.
+
+ID: CMT-8
+As a user, I want to filter conventions by state or distance.
+Acceptance Criteria: Can filter by radius like 100, 250, or 500 miles, can filter by state using a dropdown, and results update right away.
+
+ID: CMT-9
+As a user, I want to click on conventions to see more details.
+Acceptance Criteria: A detail panel opens with full information including costs, hotels, and attendance, and there's an X button to close it. Cannot forget links to the website either.
+
+ID: CMT-10
+As a user, I want the app to load quickly so I'm not waiting around.
+Acceptance Criteria: Main page loads in under 3 seconds, search results show up within 1 second, and there's no lag when switching between views.
+
+ID: CMT-11
+As a user, I want the app to work well on my phone.
+Acceptance Criteria: Layout adjusts properly for phone screens (320px and up), all buttons are easy to tap, and the map and search work on mobile browsers.
+
+ID: CMT-12
+As a user, I want to see updated convention info each year.
+Acceptance Criteria: Convention data can be updated through the JSON file, new conventions show up after the data refreshes, and past events get archived or marked as inactive.
+
+
