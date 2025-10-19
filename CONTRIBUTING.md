@@ -58,4 +58,6 @@ docs: update sprint plan in README
 - Comment anything that's not obvious
 - Test locally before pushing to GitHub and ask for review
 
-PS: I say that putting ** and ``` and ## Helps with visualizations in readme files
+PS: I saw that adding ** and ``` and ## Helps with visualizations in readme files
+
+https://www.hatica.io/blog/best-practices-for-github-readme/ This helped a lot
